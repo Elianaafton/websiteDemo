@@ -1,0 +1,139 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    font-size: 18px;
+}
+
+
+/*body*/
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/*header starts here*/
+.header{
+    height: 100px;
+    /*edit to 100%*/
+    width: 100%;
+    background-color:#101A2B;
+    border-radius: 3px;
+    margin: 30px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.header .logo{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+
+/* cart #start*/
+.cart{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 10px;
+    border-radius: 3px;
+    width: 80px;
+}
+
+.fa-solid{
+    color: black;
+}
+
+.cart p{
+    height: 22px;
+    width: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 22px;
+    background-color: #101A2B;;
+    color: white;
+}
+
+/*cart #end*/
+
+
+/* ADD to cart #starts here */
+.container{
+    display: flex;
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+#root{
+    width: 100%;
+    height: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    display: flex;
+}
+.cartbar{
+    width: 100%;    
+    height: 50%;
+    border-radius: 5px;
+    background-color: #eee;
+    margin-left: 0;
+    padding: 15px;
+    text-align: center;
+}
+
+.head{
+    background-color: #101A2B;;
+    border-radius: 3px;
+    height: 70px;
+    padding: 10px;
+    margin-bottom: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+    padding: 10px 0px;
+    border-top: 1px solid #333; 
+}
+/* ADD to cart #ends here */
+
+/*header ends here*/
+
+
+@media (max-width:991px){
+    .container{
+        display: flex;
+        width: 75%;
+        margin-bottom: 30px;
+    }
+
+    .cart p{
+    height: 22px;
+    width: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 22px;
+    background-color: orange;
+    color: white;
+}
+
+
+}
+
+

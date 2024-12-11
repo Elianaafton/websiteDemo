@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin-Panel</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <div class="admin-container">
+        <header>
+            <h1>Admin Dashboard</h1>
+            <div>
+                <a href="../user/AddItem/Add.html">
+                    <button id="add-items-button">Add Items</button>
+                </a>
+                <a href="../login.html">
+                    <button id="logout-button">Logout</button>
+                </a>
+                
+            </div>
+        </header>
+
+        <section class="recent-users">
+            <h2>Recently Signed-Up Users</h2>
+            <ul id="user-list">
+                <!-- User list will be dynamically populated here -->
+            </ul>
+        </section>
+
+        <section class="login-history">
+            <button id="clear-login-history-button">Clear All Login History</button>
+            <h2>Login History</h2>
+            <ul id="login-history">
+                <!-- Login history will be dynamically populated here -->
+            </ul>
+
+            <h3>User Action Logs</h3>
+            <button id="clear-user-logs-button">Clear All User Logs</button>
+            <ul id="user-logs">
+                <div id="user-list"></div>
+                <div id="login-history"></div>
+                <div id="user-logs"></div>
+
+            </ul>
+        </section>
+    </div>
+
+    <script src="admin.js"></script>
+</body>
+</html>

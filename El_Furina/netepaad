@@ -1,0 +1,109 @@
+creating cleaner code if possible ( i hope )
+
+LOGO- ( created by: Christian Amv)
+HEADER
+ICONS - SEARCHBAR,ADDICON,CART,USER
+NAVBAR - ALL,NEW-RELEASE,ACTION,COMEDY,DRAMA,ROMANCE,SCHOOL-LIFE,FANTASY
+PRODUCTS- BOOKS
+FOOTER - GMAIL,PHONE-NUMBER,BACK-TO-HOME,SOCIALS
+
+------------------------------------------------------------------------------------------
+
+ICONS AND FUNCTIONS
+
+-SEARCHBAR
+# CAN SEARCH BOOKS TITLES/ ITEMS
+
+-CART
+#CAN ADD ITEM AND REMOVE ITEMS IN THE CART
+
+-ADD ITEMS
+#CAN ADD ITEMS IN THE WEBSITE.ALSO IF ADDED IT CAN BE BOUGHT AND BE ADDED ON THE NEW-RELEASE
+
+LOG-IN
+# LOG-IN ON INTRO OF THE WEBSITE AND USER-PROFILE ON MAIN WEBSITE
+
+-------------------------------------------------------------------------------------------
+
+bugs! in the code that need to be fix
+
+*SEARCH bar sometimes dont SEARCH items* (fixed)
+*mobile view dont resize the website in a proper order* (fixed)
+*Cant search item if it have animations (fix: delete animations)
+
+
+Cant transfer assets from my galary (fixed)
+search bar can't'search items (fixed)
+
+cart can't' remove item after buy  (fixed)
+adding item won't' display in new release or all (fixed)
+added item cant render title "undefined" (not fixed)
+
+new-release cart counter not working (not fixed)
+
+
+
+
+
+---------------------------------------------------------------------------------------------
+
+need to do !
+
+Cart can add items to other html file (functional)
+
+log in (not functional)
+ 
+
+if the user added the same item twice it will stuck have quantity counter example item 2 or more than 2
+and show  the combined total price ( done)
+
+
+
+addding items to the website // user click + and presented by add img, add title, add discription
+add price and submit....andthe item add will show on NEW-RELEASE
+---------------------------------------------------------------------------------------------
+
+should i add this feature?
+
+buying one item directly. on cart or buttom of the add to cart in main.html ()
+
+
+
+
+
+---------------------------------------------------------------------------------------------
+
+Website reference 
+
+-Create A Responsive Grocery store Website Design Using HTML- CSS - JavaSCript || Step by Step
+ - Creator (Mr.Web Designer)
+
+-Ecommerce Website | add to cart | Delete from cart | HTML, CSS & JavaSCript
+-creator (Learning Axix)
+
+
+
+
+
+
+random code
+
+../log-in/admin/admin.html"   ../log-in/user/user.html
+
+
+                ipAddress: "IP not available",
+                device: "Device not available",
+                country: "Country not available"
+
+
+      <!--Navagation bar-->
+         <nav class="navbar">
+            <a href="#">New-Release</a>
+            <a href="../user/Action/action.html">Action</a>
+            <a href="../user/Adventure/adventure.html">Adventure</a>
+            <a href="../user/Comedy/comedy.html">Comedy</a>
+            <a href="../user/Drama/drama.html">Drama</a>
+            <a href="../user/Romance/romance.html">Romance</a>
+            <a href="../user/School life/school.html">School Life</a>
+            <a href="../user/Fantasy/fantasy.html">Fantasy</a>
+        </nav>

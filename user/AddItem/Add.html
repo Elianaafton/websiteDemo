@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Add to Cart</title>
+    <link rel="stylesheet" href="../AddItem/Add.css">
+    <script src="../AddItem/Add.js" defer></script>
+    <script src="../Shared/renderItems.js" defer></script>
+</head>
+<body>
+    <!-- HEADER -->
+    <div class="header">
+        <p class="logo">Azuna</p>
+    </div>
+
+    <!-- ADD NEW ITEM SECTION -->
+    <div class="add-item-container">
+        <h2>Add New Item</h2>
+        <form id="add-item-form">
+            <input type="text" id="item-title" placeholder="Title" required>
+            <textarea id="item-description" placeholder="Description" required></textarea>
+            <input type="number" id="item-price" placeholder="Price" step="0.01" required>
+            <input type="url" id="item-image" placeholder="Image URL" required>
+            
+            <!-- Genre Dropdown -->
+            <select id="item-genre" required>
+                <option value="">Select Genre</option>
+                <option value="Action">Action</option>
+                <option value="Adventure">Adventure</option>
+                <option value="Comedy">Comedy</option>
+                <option value="Drama">Drama</option>
+                <option value="Romance">Romance</option>
+                <option value="School Life">School Life</option>
+                <option value="Fantasy">Fantasy</option>
+            </select>
+
+            <button type="submit">Add Item</button>
+        </form>
+    </div>
+
+    <!-- ITEM DISPLAY SECTION -->
+    <section class="features" id="features">
+        <h1 class="heading">Added <span>Items</span></h1>
+        <div class="box-container" id="items-container"></div>
+    </section>
+</body>
+</html>
